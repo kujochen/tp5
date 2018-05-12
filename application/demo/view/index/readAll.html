@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h2>用户列表（{$count}）</h2>
+{volist name="user" id="user" }
+<div class="info">
+    ID：{$user.id}<br/>
+    用户名：{$user.user}<br/>
+    ------------------------<br/>
+</div>
+{/volist}
+</body>
+</html>
